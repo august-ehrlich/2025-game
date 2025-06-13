@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://btu3wv2bxc8kj"]
+
+[ext_resource type="Script" uid="uid://ddjplpvn5yk8d" path="res://pixel.gd" id="1_ptkfl"]
+
+[node name="Pixel" type="ColorRect"]
+custom_minimum_size = Vector2(32, 32)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ptkfl")

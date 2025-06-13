@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="2025 Project"
-run/main_scene="uid://frev77yx2h8l"
+run/main_scene="uid://bbcbbm4vm62xg"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Global.gd"
 
 [dotnet]
 

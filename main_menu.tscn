@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbcbbm4vm62xg"]
+
+[ext_resource type="Script" uid="uid://2jd4b5bm6jbx" path="res://main_menu.gd" id="1_06t4h"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_06t4h")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 529.0
+offset_top = 279.0
+offset_right = 655.0
+offset_bottom = 324.0
+text = "Select Image"
+
+[node name="FileDialog" type="FileDialog" parent="."]
+title = "Open a File"
+ok_button_text = "Open"
+file_mode = 0
+filters = PackedStringArray("*.png", "*.jpg")
